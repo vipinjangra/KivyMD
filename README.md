@@ -12,5 +12,5 @@ Copy Below Codes and Paste in your codes Comment Section
 Github: https://github.com/vipinjangra
 Youtube: https://www.youtube.com/c/vipincoding/
 Blog: http://vipincoding.wordpress.com/
-Facebook: https://www.facebook.com/vipinjangraofficial
-Instagram: https://www.instagram.com/vipinjangra_/
+Facebook: https://www.facebook.com/vipincoding
+Instagram: https://www.instagram.com/vipincoding/
