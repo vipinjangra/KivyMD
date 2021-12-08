@@ -1,7 +1,7 @@
 # KivyMD
 Build Apps with KivyMD | Python Tutorial
 
-Licence:
+License:
 
 You can use source codes as you want
 
