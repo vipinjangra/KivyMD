@@ -1,0 +1,52 @@
+MDScreen:
+    md_bg_color: [60/255, 140/255, 255/255, 1]
+    MDCard:
+        radius: [20]
+        size_hint: None, None
+        size: 320,450
+        pos_hint: {"center_x": 0.5,"center_y":0.5}
+        elevation: 20
+        md_bg_color: [80/255, 90/255, 150/255, 1]
+        padding: 20
+        spacing: 30
+        orientation: "vertical"
+
+        MDLabel:
+            text: 'vipin coding'
+            color: 'white'
+            font_style: 'Button'
+            font_size: 30
+            halign: 'center'
+            size_hint_y: None
+            height: self.texture_size[1]
+            padding_y: 15
+
+        MDTextFieldRound:
+            hint_text: 'youremail@gmail.com'
+            icon_right: 'account'
+            size_hint_x: None
+            width: 220
+            font_size: 16
+            pos_hint: {"center_x": 0.5}
+            color_active: [0,8,3,1]
+
+        MDTextFieldRound:
+            hint_text: 'password'
+            icon_right: 'eye-off'
+            size_hint_x: None
+            width: 220
+            font_size: 16
+            pos_hint: {"center_x": 0.5}
+            color_active: [0,8,3,1]
+            password: True
+
+        MDChip:
+            text: 'Login'
+            icon: ''
+            on_release: app.callback_for_menu_items(self)
+            pos_hint: {"center_x": 0.5}
+            font_size: 35
+
+        Widget:
+            size_hint_y: None
+            height: 30
